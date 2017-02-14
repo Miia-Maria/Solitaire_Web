@@ -1,0 +1,131 @@
+//Tekijät: Miia-Maria Mikkola ja Jenni Hautala
+
+//.css-tiedosto sisältää koko pelin muotoilun
+
+//Taustakuvan asettaminen
+body{
+    background-image: url("hienokuva.jpg");    
+}
+
+//Suurimpien otsikoiden muotoileminen
+h1, h2 {
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+}
+
+//Fontin asettaminen
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+//Aloitusnäkymän nappien muotoileminen
+div.mainScreenButtons input {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+//Start-napin oma muotoilu
+#start {
+    padding: 7px;
+    margin-bottom: 25px;
+}
+
+//Start-näkymän, eli sovelletun pelinäkymän nappien muotoilu
+div.buttons {
+    display: inline;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+//Start-näkymän nappien kokojen parantelu
+div.buttons input {
+    padding: 5px;
+}
+
+//Ohjeistuksen tekstialueen muotoilu
+div.textArea {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 550px;
+}
+
+//How to Play -näkymän nappien muotoilu
+div.howToPlayButtons input {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+//Asetus-laatikon ulkoinen muotoilu
+div.settings {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 300px;   
+}
+
+//Asetusten sisällön paranteleminen
+div.settings input {
+    margin-bottom: 25px;
+}
+
+//Theme-asetusten muotoileminen
+div.theme h4, themeButtons{
+    display: inline;
+    width: 45%;
+    position: relative;
+    right: auto;
+    bottom: auto;
+}
+
+div.themeButtons input {
+    display: inlineblock;
+    width   : 50%;
+    margin  : 0;
+    padding : 0;
+    text-align: left;
+}
+
+//Difficulty-asetusten muotoileminen
+div.difficulty {
+    margin-top: 25px;
+}
+
+div.difficulty h4, difficultyButtons{
+    display: inline;
+    width: 45%;
+    position: relative;
+    right: auto;
+    bottom: auto;
+}
+
+div.difficultyButtons input {
+    display: inlineblock;
+    width   : 50%;
+    margin  : 0;
+    padding : 0;
+    text-align: left;
+}
+
+//Volumen muotoileminen
+div.volumeBar {
+    text-align: center;
+}
+
+//Back-nappulan muotoileminen
+#back {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
